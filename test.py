@@ -7,4 +7,4 @@ with st.form("User Registration Form"):
   st.text_input
   st.write("Enter your password")
   st.text_input
-  st.form_register_button("Register")
+  
