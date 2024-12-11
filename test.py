@@ -6,4 +6,10 @@ st.title("User Registration Form")
 name = st.text_input("Enter your name", placeholder="Type your name here")
 email = st.text_input("Enter your email", placeholder="Type your email here")
 pwd = st.text_input("Enter your password", placeholder="Type your password here")
+
+# Add a button with the caption "Register"
+st.button("Register")
+# Submit button
+submitted = st.form_submit_button("Submit")
+
   
