@@ -9,7 +9,5 @@ pwd = st.text_input("Enter your password", placeholder="Type your password here"
 
 # Add a button with the caption "Register"
 st.button("Register")
-# Submit button
-submitted = st.form_submit_button("Submit")
 
   
