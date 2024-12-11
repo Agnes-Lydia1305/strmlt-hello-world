@@ -4,5 +4,5 @@ import streamlit as st
 st.title("User Registration Form")
 # Add a text input with a caption
 st.write("Enter your name")
-st.text_input
+name = st.text_input("Name", placeholder="Type your name here")
   
